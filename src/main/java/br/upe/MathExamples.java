@@ -37,7 +37,7 @@ public class MathExamples {
         System.out.println(dblNumC + " - " + dblNumD + " = " + subtract(dblNumC, dblNumD));
         System.out.println(dblNumC + " x " + dblNumD + " = " + multiply(dblNumC, dblNumD));
         System.out.printf("%1.1f " + (char)247 + "%1.1f = %1.3f \n", dblNumC, dblNumD, divide(dblNumC,dblNumD));
-        DecimalFormat dFormat = new DecimalFormat(“#, ###.###”);
+        DecimalFormat dFormat = new DecimalFormat("#, ###.###");
         System.out.println (dblNumC + " " + (char) 247 + " " + dblNumD + " = " + dFormat.format(divide(dblNumC,dblNumD)));
         System.out.println(dblNumC + " to the power of " + dblNumD + " = " + dFormat.format(exponent(dblNumC,dblNumD)));
         System.out.println("The square root of " + dblNumC + " = " + dFormat.format(squareRoot(dblNumC)));
