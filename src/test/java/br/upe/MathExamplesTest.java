@@ -38,7 +38,7 @@ public class MathExamplesTest
     }
 
     @Test
-    void givenRegularEntry_whenDivide_thenReturnIntegerQuotient()
+    public void givenRegularEntry_whenDivide_thenReturnIntegerQuotient()
     {
         assertEQuals(4,MathExamples.divide(8,2));
 
