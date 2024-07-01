@@ -7,7 +7,7 @@ import java.text.DecimalFormat;
 
 public class MathExamples {
 
-    public static void main( ) {
+    public static void main(String[] args) {
         int intNumA = 5;
         int intNumB = 3;
 
