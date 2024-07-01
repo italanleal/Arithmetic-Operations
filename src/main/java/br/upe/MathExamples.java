@@ -30,8 +30,8 @@ public class MathExamples {
         System.out.println((0.1f == 0.1d));
 
         RoundingMode rmHalfUp = RoundingMode.HALF_UP;
-        BigDecimal bdNumE = new BigDecimal("0.1").setSacle(1, rmHalfUp);
-        BigDecimal bdNumF = new BigDecimal("0.2").setScale(1, rnHalfUp);
+        BigDecimal bdNumE = new BigDecimal("0.1").setScale(1, rmHalfUp);
+        BigDecimal bdNumF = new BigDecimal("0.2").setScale(1, rmHalfUp);
 
         System.out.println (bdNumE + " + " + bdNumF + " = " + add(bdNumE, bdNumF));
         System.out.println(dblNumC + " - " + dblNumD + " = " + subtract(dblNumC, dblNumD));
@@ -84,9 +84,7 @@ public class MathExamples {
     public static int mod(int intDividend, int intDivisor) {
         return intDividend % intDivisor;
     }
-    public static double mod(double intDividend, double intDivisor) {
-        return intDividend % intDivisor;
-    }
+
 
     public static int exponent(int base, int power) {
         return (int) Math.pow(base, power);
