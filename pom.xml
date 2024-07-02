@@ -68,7 +68,7 @@
           <configuration>
             <archive>
                 <manifest>
-                  <mainClass>br.upe.Main</mainClass>
+                  <mainClass>br.upe.MathExamples</mainClass>
                 </manifest>
             </archive>
           </configuration>
