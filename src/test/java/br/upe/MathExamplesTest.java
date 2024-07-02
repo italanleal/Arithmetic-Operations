@@ -36,7 +36,7 @@ public class MathExamplesTest
     @Test
     public void givenRegularEntry_whenMod_thenReturnModulusOfIntegerDivision() 
     {
-        assertEquals(2,MathExamples.mod(5,3) );
+        assertEquals(2,MathExamples.mod(5,3));
 
     }
 
