@@ -15,7 +15,7 @@ public class MathExamplesTest
     @Test
     public void givenRegularEntry_whenSubtract_thenReturnDifferenceBetweenElements()
     {
-        assertEguals(2,MathExamples.subtract(5,3)); 
+        assertEquals(2,MathExamples.subtract(5,3)); 
 
     }
 
@@ -29,7 +29,7 @@ public class MathExamplesTest
     @Test
     public void givenRegularEntry_whenDivide_thenReturnIntegerQuotient()
     {
-        assertEQuals(4,MathExamples.divide(8,2));
+        assertEquals(4,MathExamples.divide(8,2));
 
     }
 
