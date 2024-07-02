@@ -1,6 +1,5 @@
 package br.upe;
 
-import static java.lang.Math.*;
 import java.math.BigDecimal;
 import java.math.RoundingMode;
 import java.text.DecimalFormat;
